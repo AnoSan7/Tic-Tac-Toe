@@ -136,3 +136,9 @@ tr .cells:last-child{
         transform: scale(1) rotate(0deg);
     }
 }
+@media(max-width: 600px) {
+    .tables{
+        display: flex;
+        flex-direction: column;
+    }
+}
