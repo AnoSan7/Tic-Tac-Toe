@@ -139,6 +139,7 @@ tr .cells:last-child{
 @media(max-width: 600px) {
     .tables{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 2rem;
     }
 }
